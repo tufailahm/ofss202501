@@ -96,19 +96,31 @@ Hands - On (30 minutes) 14:07 03-07-2025
     course  --- sql, plsql and dotnet
 
 2. Copy all the files from etc directory to task
+task>
 3. move all the files beginning with t to sql directory of course
+mv t* ./../course/sql
+
 4. copy the files beginning with the letter s to french of language
 5. copy the files from the french to dotnet
 6. delete all the files from french
+rm *
+
 7. Display all the files with the permission 644
 
 8. Create four files which will have the following content
    file1 -- output of all the users who have currently logged in
    file2 -- calender of the year 2000
    file3 -- finding all the files which belongs to group project
+	find . 
    file4 -- sorting the content of the file names which around 10 names
+
+
 9. Merge all the files which were created in question 8 and send the output to file5
+
+
+
 10. Display the first 10 lines of the file5
+
 
 https://codeshare.io/tufail 
 
@@ -121,5 +133,5 @@ ls -l *b
 ls -l [abc]*.txt
 
 
-
+cp /etc/* docker
 
