@@ -135,3 +135,65 @@ ls -l [abc]*.txt
 
 cp /etc/* docker
 
+--------------------------------------
+Shell Scripting in UNIX/Linux
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------
+XML (Extensible Markup Language)
+
+store the data and transport the data.
+
+
+BLR - MUM	(19th July 2025)	- Indigo	- XML format
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+XML is a text-based markup language that enables storage of data in a structured format.
+XML is a cross-platform, hardware and software independent markup language that enables structured data transfer between heterogeneous systems.
+
+
+XML is used as a common data interchange format in a number of applications.
+
+
+The rules that govern the creation of a well-formed XML document:
+XML must have only one root tag.
+Every start tag must have an end tag.
+Empty tags must be closed using a forward slash (/).
+All attribute values must be given in double quotation marks.
+Tags must have proper nesting.
+XML tags are case sensitive.
