@@ -1,0 +1,19 @@
+employeename
+{
+	font-family:Arial;
+	font-size:20pt;
+	text-decoration:underline;
+	color:red;
+	display:block;
+	padding top:6pt;
+	padding bottom:6pt
+}
+employeeid, mobileNumber
+{
+	font-family:Algerian;
+	font-size:15pt;
+	color:teal;
+	display:block;
+	padding top:2pt;
+	padding bottom:2pt
+}

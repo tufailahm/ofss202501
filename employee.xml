@@ -1,15 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?> ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="employee.css"?>
 <employeedata>
-<employee>
-<employeeid>9191</employeeid>
-<employeename>Tufail</employeename>
-<salary>980000</salary>
-</employee>
-
-<employee>
-<employeeid>9192</employeeid>
-<employeename>Karthik</employeename>
-<salary>180000</salary>
-</employee>
-
+	<employee>
+		<employeeid>1911</employeeid>
+		<employeename>Tufail</employeename>
+		<salary>
+			<basic>8181</basic>
+			<pf>18191</pf>	
+		</salary>
+		<mobileNumber>1111111111</mobileNumber>
+	</employee>
+	<employee>
+		<employeeid>9192</employeeid>
+		<employeename>Karthik</employeename>
+		<salary>
+			<pf>18191</pf>	
+			<basic>8181</basic>
+		</salary>
+		<mobileNumber>111111111</mobileNumber>
+	</employee>
 </employeedata>
