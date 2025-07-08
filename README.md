@@ -639,3 +639,146 @@ The list of products sold at CyberShoppe needs to be displayed. These products n
 
 
 
+
+
+
+
+
+
+
+
+
+ @h:\hr\1.sql
+
+ @h:\hr\2.sql
+
+ @h:\hr\3.sql
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. close SQL developer
+2. close all the files of oracle 21c
+3. uninstall oracle 21c
+
+4) Download
+https://download.oracle.com/otn-pub/otn_software/db-express/WINDOWS.X64_238000_free.zip
+
+5) Unzip
+
+6) Go to the folder and click setup.exe
+
+
+choose the below folder ( create first)
+
+c:\app\23ai
+
+
+ Give the password as root 
+
+----------------------Installation Completed
+
+Open sql developerti
+username : system
+password : root
+url : ip address
+service : FREE
+Click connect-->  Success
+
+
+
+
+start sql develeoper
+instead of XE type FREE
+
+
+
+
+
+
+ @h:\hr\1.sql
+
+ @h:\hr\2.sql
+
+ @h:\hr\3.sql
+
+
+
+
+
+
+
+
+
+
+Performs querying on this:
+
+All tables with records are created, now we will perform queries on these tables:
+
+
+Problem#1:
+
+Write a query to display the customer number, firstname, customer’s date of birth. 
+Display in sorted order of date of birth year and within that sort by firstname.
+
+
+Problem#2:
+
+Write a query to display the customer’s number, first name, and middle name. 
+The customer’s who don’t have a middle name, for them display the last name. 
+Give the alias name as Cust_Name.
+
+
+
+
+Problem#3:
+
+Write a query to display account number, customer’s number, customer’s firstname,
+lastname,account opening date.
+
+
+
+Problem # 4:
+
+Write a query to display the number of customer’s from Delhi. 
+Give the count an alias name of Cust_Count.
+
+
+Problem # 5:
+
+Write a query to display  the customer number, customer firstname,account number for the customer’s whose accounts were created after 15th of any month.
+Problem # 6:
+
+Write a query to display the female customers firstname, city and account number who are not into business, service or studies.
+Problem # 7:
+
+Write a query to display city name and count of branches in that city. Give the count of branches an alias name of Count_Branch.
+Problem # 8:
+
+Write a query to display account id, customer’s firstname, customer’s lastname for the customer’s whose account is Active.
+Problem # 9:
+
+Write a query to display the customer’s number, customer’s firstname, branch id and loan amount for people who have taken loans.
+Problem # 10:
+
+Write a query to display customer number, customer name, account number where the account status is terminated.
+
+
+
+
+
+
+
+
+
+---------------
+
