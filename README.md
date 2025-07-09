@@ -782,3 +782,17 @@ Write a query to display customer number, customer name, account number where th
 
 ---------------
 
+JOINS
+
+
+
+
+
+
+
+
+
+
+
+
+
