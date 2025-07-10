@@ -784,6 +784,112 @@ Write a query to display customer number, customer name, account number where th
 
 JOINS
 
+SELF JOIN
+
+Employee Name		Manager Name
+Steven is reporting to NULL
+Neena is reporting to Steven
+...
+
+
+select e1.first_name , e2.first_name 
+from employees  e1 join employees e2
+on e1.employee_id = e2.manager_id
+
+
+Customer
+1
+2
+
+
+Loan
+1
+2
+3
+4
+
+select customerName,loanType from customer cross join Loan.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DDL
+----
+create
+alter
+drop
+truncate table employees;
+
+--- faster
+	
+
+
+
+DML
+-------
+
+insert
+update
+delete from employees;
+
+
+TCL
+------
+DDL commands are automatically committed.
+
+
+commit
+
+rollback
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
